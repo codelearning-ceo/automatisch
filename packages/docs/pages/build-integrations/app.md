@@ -58,7 +58,7 @@ export default defineApp({
 - `supportsConnections` is a boolean that indicates whether the app supports connections or not. If it's `true`, Automatisch will display the connection page for the app. Some apps like RSS and Scheduler do not support connections since they do not have authentication.
 - `baseUrl` is the base URL of the third-party service.
 - `apiBaseUrl` is the API URL of the third-party service.
-- `primaryColor` is the primary color of the app. It's used in Automatisch to generate the app icon if it does not provide an icon. You can put any hex color code that reflects the branding of the third-party service.
+- `primaryColor` is the primary colour of the app. It's used in Automatisch to generate the app icon if it does not provide an icon. You can put any hex colour code that reflects the branding of the third-party service.
 
 ## Create the favicon
 

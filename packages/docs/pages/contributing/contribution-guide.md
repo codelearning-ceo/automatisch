@@ -20,6 +20,6 @@ We use [conventional commit messages](https://www.conventionalcommits.org) to ge
 
 We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/automatisch/automatisch/issues/new).
 
-## License
+## Licence
 
-By contributing, you agree that your contributions will be licensed under the AGPL-3.0 license.
+By contributing, you agree that your contributions will be licensed under the AGPL-3.0 licence.

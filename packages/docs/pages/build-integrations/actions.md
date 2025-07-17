@@ -61,16 +61,16 @@ Create the `actions/mark-cat-image-as-favorite/index.js` file inside the `thecat
 import defineAction from '../../../../helpers/define-action.js';
 
 export default defineAction({
-  name: 'Mark the cat image as favorite',
+  name: 'Mark the cat image as favourite',
   key: 'markCatImageAsFavorite',
-  description: 'Marks the cat image as favorite.',
+  description: 'Marks the cat image as favourite.',
   arguments: [
     {
       label: 'Image ID',
       key: 'imageId',
       type: 'string',
       required: true,
-      description: 'The ID of the cat image you want to mark as favorite.',
+      description: 'The ID of the cat image you want to mark as favourite.',
       variables: true,
     },
   ],
@@ -118,10 +118,10 @@ export default defineAction({
 });
 ```
 
-In this action, we send a request to the cat API to mark the cat image as favorite. We used the `$.http.post` method to send the request. The request body contains the image ID as it's required by the API.
+In this action, we send a request to the cat API to mark the cat image as favourite. We used the `$.http.post` method to send the request. The request body contains the image ID as it's required by the API.
 
 `$.setActionItem` is used to set the result of the action, so we set the response data as the action item. This is used to display the result of the action in the Automatisch UI and can be used in the next steps of the workflow.
 
 ## Test the action
 
-Go to the flows page of Automatisch and create a new flow. Add the `Search cat images` as a trigger in the flow. Add the `Mark the cat image as favorite` action to the flow as a second step. Add one of the image IDs you got from the cat API as `Image ID` argument to the action. Click `Test & Continue` button. If you a see JSON response in the user interface, it means that both the trigger and the action we built are working properly.
+Go to the flows page of Automatisch and create a new flow. Add the `Search cat images` as a trigger in the flow. Add the `Mark the cat image as favourite` action to the flow as a second step. Add one of the image IDs you got from the cat API as `Image ID` argument to the action. Click `Test & Continue` button. If you a see JSON response in the user interface, it means that both the trigger and the action we built are working properly.
